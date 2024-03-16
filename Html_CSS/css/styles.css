@@ -8,3 +8,22 @@ h2 {color: pink;}
             margin-bottom: 20px;  
             padding: 10px;          
 }
+nav  {
+       background: cyan;
+        padding: 20px;
+}
+
+.columna {
+    background: red;
+    color:whitesmoke;
+    padding: 20px;
+    width: 33%;
+    margin: 20px;
+}
+.padre {
+    display: flex}
+
+.animales {
+    /*display: block*/
+    display: inline-block;
+}

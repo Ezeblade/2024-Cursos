@@ -1,0 +1,58 @@
+.nav-enlace {
+    background: salmon;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-enlace:hover {
+    background: lightgrey;
+}
+nav {
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around ;
+    /*justify-content: center;
+    justify-content: space-between;
+    
+    justify-content: flex-end ;*/
+
+    
+}
+@media (max-width: 600px)   {
+        nav{background: pink;
+        flex-direction: column;
+        }
+        .nav-enlace {margin: 5px;
+                    
+        }
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {background: violet;
+       color: whitesmoke; 
+       padding: 20px;
+       display: block;       
+       margin: 20px; 
+}
+button:hover {
+    background: black;
+}
+button:active {
+        background: #008DDA;
+}
