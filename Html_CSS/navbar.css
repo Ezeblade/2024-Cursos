@@ -20,39 +20,41 @@ nav {
 
     
 }
-@media (max-width: 600px)   {
-        nav{background: pink;
-        flex-direction: column;
-        }
-        .nav-enlace {margin: 5px;
-                    
-        }
-        
-        
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 button {background: violet;
-       color: whitesmoke; 
-       padding: 20px;
-       display: block;       
-       margin: 20px; 
+    color: whitesmoke; 
+    padding: 20px;
+    display: block;       
+    margin: 20px; 
 }
 button:hover {
-    background: black;
+ background: black;
 }
 button:active {
-        background: #008DDA;
+     background: #008DDA;
+}
+
+.nav-boton {
+    background: salmon;
+    color: whitesmoke;
+    padding: 10px 0;
+    border: 2px solid whitesmoke;
+    display: none;
+}
+
+@media (max-width: 600px)   {
+    nav{background: pink;
+    flex-direction: column;
+    }
+    .nav-enlace {margin: 5px;
+                
+    }
+    .nav-boton {
+        display: inline-block;
+    }
+    .desaparece {
+        display: none;
+    }
+    
+    
 }

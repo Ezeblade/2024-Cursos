@@ -34,8 +34,42 @@ alert ("hola " +  nombre)
 //numero1 = 5;
 //numero2 = 10;
 //frase =  numero1.concat(numero2)//necesita si o si un string
-nombre = "eze"
-cadena = `Soy ${nombre} me gustan los pandas`
+//nombre = "eze"
+//cadena = `Soy ${nombre} me gustan los pandas`
    //opcion mas facil en vez del concat
-alert (cadena)
+//alert (cadena)
+//frase = `mi nombre es "eze" y soy crack`; no me funciono
+//document.write(frase);
 
+/*let numero = 2;
+let numero2 = 3;
+let texto = "panda";
+let texto2 = "panda";
+document.write(texto == texto2); //son iguales
+document.write(texto === texto2); // estrictamente iguales
+document.write(texto !== texto2); //estrictamente distinto de dato y numero
+document.write(texto != texto2); //distinto
+
+
+let valor = true;
+let valor2= true;
+
+let resultado = valor && valor2;
+let resultado = valor || valor2;
+let resultado = valor = valor2;
+
+num1 = 2;
+num2 = 4;
+
+afirmacion1 = num1 < num2;
+afirmacion2 = num1 != num2;
+document.write(!afirmacion1); // && and // || si una es verdadero todos // ! contrario
+*/
+
+num1 = 12;
+num2 = 24;
+num3 = 25;
+num4 = 92;
+num5 = 91;
+
+op = true
